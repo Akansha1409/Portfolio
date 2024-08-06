@@ -1,5 +1,6 @@
 import { SiMongodb } from "react-icons/si";
 import { RiReactjsLine, RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiSocketdotio } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -63,7 +64,7 @@ const Technologies = () => {
           <FaNodeJs className="text-7xl text-green-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -77,6 +78,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaJava className="text-7xl text-orange-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiSocketdotio className="text-7xl text-black" />
         </motion.div>
       </motion.div>
     </div>

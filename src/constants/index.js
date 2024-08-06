@@ -2,6 +2,8 @@
  import project2 from "../assets/projects/project2.png";
  import project3 from "../assets/projects/project3.png";
  import project4 from "../assets/projects/project4.png";
+ import project5 from "../assets/projects/project5.png";
+ import project6 from "../assets/projects/project6.png";
  import frontendImg from "../components/frontendImg.png"
  import mernImg from "../components/mernImg.png"
  import programmerImg from "../components/programmerImg.png"
@@ -16,7 +18,7 @@ export const ABOUT_TEXT = [
     description:'I am a passionate frontend developer with expertise in HTML, CSS, JavaScript, and React.js, specializing in creating responsive, user-friendly interfaces. I have a strong background in utilizing Tailwind CSS for efficient UI development. My experience includes developing single-page applications, implementing interactive features,optimizing performance and I am proficient in version control with Git and GitHub'
   },
   {
-    title:"MERN Stack DevelopMer",
+    title:"MERN Stack Developer",
     image:mernImg,
     description:'I am a dedicated MERN stack developer with expertise in building and maintaining web applications using MongoDB, Express.js, React.js, and Node.js. I design scalable database schemas, create efficient backend services, and develop dynamic user interfaces. My experience includes building e-commerce platforms, and interactive single-page applications and I am proficient in version control with Git.'
   },
@@ -30,33 +32,63 @@ export const ABOUT_TEXT = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real-time Tracker",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    title: "Rock Paper Scissors",
-    image: project2,
-    description:
-      "A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. Players choose rock, paper, or scissors to compete against the computer. The game features a clean, responsive design and simple, interactive gameplay." ,
-    technologies: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    title: "Real-time Tracker",
-    image: project3,
-    description:
-      "This project is a real-time geolocation tracker built using Node.js, Express, Socket.io, and Leaflet. It allows multiple users to share their locations in real-time on an interactive map.",
+      "This project is a real-time geolocation tracker allowing multiple users to share their locations in real-time on an interactive map.",
     technologies: ["React", "Node.js","Express","Socket.io","Leaflet"],
+       SourceCode: "https://github.com/Akansha1409/tracker",
+    liveProject: "https://tracker-tzl5.onrender.com/"
   },
   {
     title: "Password Manager",
+    image: project2,
+    description:
+      "A web application that allows users to securely store and manage their passwords with the features such as adding, viewing, editing, and deleting passwords.",
+    technologies: ["React", "Tailwind CSS","Node.js", "Express","MongoDB","UUID", "React-Toastify"],
+       SourceCode: "https://github.com/Akansha1409/passop",
+    liveProject: "https://passop-git-main-akanshas-projects-76a6fd7b.vercel.app/"
+  },
+  {
+    title: "Weather App",
+    image: project3,
+    description:
+      "A Weather app providing real-time weather forecasts and current conditions for any city using weather APIs." ,
+    technologies: ["ReactJS", "Tailwind CSS", "APIs"],
+       SourceCode: "https://github.com/Akansha1409/WeatherApp",
+    liveProject: "https://weather-app-p4vz-git-main-akanshas-projects-76a6fd7b.vercel.app/"
+  },
+  {
+    title: "SnakeMania",
     image: project4,
     description:
-      "Password Manager is a web application that allows users to securely store and manage their passwords. It provides features such as adding, viewing, editing, and deleting passwords, with a user-friendly interface.",
-    technologies: ["React", "Tailwind CSS","Node.js", "Express","MongoDB","UUID", "React-Toastify"],
+      "A classic game built with HTML, CSS, and JavaScript. Experience the nostalgia of the timeless Snake Game with a modern touch." ,
+    technologies: ["HTML", "CSS", "Javascript"],
+       SourceCode: "https://github.com/Akansha1409/game",
+    liveProject: "https://game-snake-git-main-akanshas-projects-76a6fd7b.vercel.app/"
   },
+  
+  {
+    title: "Rock Paper Scissors",
+    image: project5,
+    description:
+      "A classic game built with HTML, CSS, and JavaScript. Players choose rock, paper, or scissors to compete against the computer." ,
+    technologies: ["HTML", "CSS", "Javascript"],
+       SourceCode: "https://github.com/Akansha1409/Rock-Paper-Scissor-",
+    liveProject: "https://game-4vru-git-main-akanshas-projects-76a6fd7b.vercel.app/"
+  },
+  {
+    title: "Tune Stream",
+    image: project6,
+    description:
+      "A music streaming web application that allows users to listen to their favorite songs.",
+    technologies: ["HTML", "CSS", "Javascript"],
+     SourceCode: "https://github.com/Akansha1409/music",
+    liveProject: "https://music-git-main-akanshas-projects-76a6fd7b.vercel.app/"
+  },
+ 
+  
+  
 ];
 
 export const CONTACT = {
