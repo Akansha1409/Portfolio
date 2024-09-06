@@ -4,6 +4,7 @@
  import project4 from "../assets/projects/project4.png";
  import project5 from "../assets/projects/project5.png";
  import project6 from "../assets/projects/project6.png";
+ import project7 from "../assets/projects/project7.png";
  import frontendImg from "../components/frontendImg.png"
  import mernImg from "../components/mernImg.png"
  import programmerImg from "../components/programmerImg.png"
@@ -18,9 +19,9 @@ export const ABOUT_TEXT = [
     description:'I am a passionate frontend developer with expertise in HTML, CSS, JavaScript, and React.js, specializing in creating responsive, user-friendly interfaces. I have a strong background in utilizing Tailwind CSS for efficient UI development. My experience includes developing single-page applications, implementing interactive features,optimizing performance and I am proficient in version control with Git and GitHub'
   },
   {
-    title:"MERN Stack Developer",
+    title:"Full Stack Developer",
     image:mernImg,
-    description:'I am a dedicated MERN stack developer with expertise in building and maintaining web applications using MongoDB, Express.js, React.js, and Node.js. I design scalable database schemas, create efficient backend services, and develop dynamic user interfaces. My experience includes building e-commerce platforms, and interactive single-page applications and I am proficient in version control with Git.'
+    description:'I am a dedicated Full stack developer with expertise in building and maintaining web applications using MongoDB, Express.js, React.js, and Node.js. I design scalable database schemas, create efficient backend services, and develop dynamic user interfaces. My experience includes building e-commerce platforms, and interactive single-page applications and I am proficient in version control with Git.'
   },
   {
     title:"Programmer",
@@ -31,6 +32,15 @@ export const ABOUT_TEXT = [
 
 
 export const PROJECTS = [
+  {
+    title: "LiveDocs",
+    image: project7,
+    description:
+      "This project is a real-time document editor allowing multiple users to edit the same document simultaneously with real-time updates.",
+    technologies: ["Next.js", "TypeScript","Liveblocks","Tailwind CSS","ShadCN","Lexical Editor"],
+       SourceCode: "https://github.com/Akansha1409/liv-docs",
+    liveProject: "https://liv-docs-gu2i-git-main-akanshas-projects-76a6fd7b.vercel.app/"
+  },
   {
     title: "Real-time Tracker",
     image: project1,
